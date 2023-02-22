@@ -1,0 +1,23 @@
+﻿<Window x:Class="WPFInsta.InstaLogin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFInsta"
+        mc:Ignorable="d"
+        Title="InstaLogin" Height="500" Width="400">
+    <Grid>
+        <Label Content="Instagram" HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Width="125" Margin="10,10,0,0" FontFamily="Algerian" FontSize="18"/>
+        <Image Source="https://img.icons8.com/pastel-glyph/64/000000/chat-message-sent--v1.png" Margin="328,10,11,444"/>
+        <Grid Margin="0,367,0,79">
+            <Image Source="https://img.icons8.com/color/48/000000/filled-like.png" Margin="0,0,352,10"/>
+            <Image Source="https://img.icons8.com/fluency-systems-regular/48/000000/comments--v1.png" Margin="60,0,291,10"/>
+            <Image Source="https://img.icons8.com/external-yogi-aprelliyanto-basic-outline-yogi-aprelliyanto/64/000000/external-paper-plane-design-thinking-yogi-aprelliyanto-basic-outline-yogi-aprelliyanto.png" Margin="115,0,231,10"/>
+            <Image Source="https://img.icons8.com/external-bearicons-gradient-bearicons/64/000000/external-Save-social-media-bearicons-gradient-bearicons.png" Margin="338,0,12,10" />
+        </Grid>
+        <Grid Margin="0,442,0,10"/>
+        <Image Source="https://img.icons8.com/material-rounded/24/000000/home.png" Margin="3,442,353,12"/>
+        <Image Source="https://img.icons8.com/ios-glyphs/30/000000/search--v1.png" Margin="90,442,265,12"/>
+        <Image Source="https://img.icons8.com/ios/50/000000/plus-2-math.png" Margin="178,442,178,12"/>
+    </Grid>
+</Window>
